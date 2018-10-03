@@ -62,7 +62,7 @@ Returns instances of VMConnection
 `<vm:consume>`
 
 +++
-Pull one message from a queue. If a message is not immediately available, it will wait up to the configured queueTimeout, after which a VM:QUEUE_TIMEOUT error will be thrown. <p> The queue on which the content is published has to be one for which a <vm:listener> <b>doesn't </b> exists. Consuming from queues on which a <vm:listener> exists is not allowed.
+Pull one message from a queue. If a message is not immediately available, it will wait up to the configured queueTimeout, after which a VM:QUEUE_TIMEOUT error will be thrown. <p> The queue on which the content is published has to be one for which a listener <b>doesn't </b> exists. Consuming from queues on which a listener exists is not allowed.
 +++
 
 ==== Parameters
